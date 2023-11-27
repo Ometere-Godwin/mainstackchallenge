@@ -1,12 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import user from "../public/assets/user.png";
 import menu from "../public/assets/menu1.svg";
 import notification from "../public/assets/notification.svg";
 import chat from "../public/assets/chat1.svg";
 import logo from "../public/assets/logo.png";
 import { meunListLink, userProfile } from '@/utils/constants';
+import UserDropDown from './UserDropDown';
 export default function Header() {
   return (
     <div className='h-20 sticky top-0 z-10 m-4'>
@@ -25,8 +25,8 @@ export default function Header() {
                 <Image src={chat}/>
 
                 {/* User Profile */}
-                <div>
-                <Image src={user} alt='user' width={40} height={40}/>
+                <div className=''>
+                <UserDropDown/>
                 </div>
             </div>
         </div>

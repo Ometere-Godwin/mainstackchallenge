@@ -13,7 +13,7 @@ export const meunListLink = [
 
     {
         name: "Revenue",
-        image: "/assets/revenue.png",
+        image: "/assets/revenue.svg",
         link: "revenue",
     },
 
@@ -24,12 +24,13 @@ export const meunListLink = [
     },
 ];
 
-export const userProfile = [
+export const dropdown = [
     {
-        image: "/assets/chat1.svg"
+        name: "Settings",
+        image: "/assets/crm.svg",
     },
 
     {
-        image: "/assets/chat1.svg"
+        
     }
 ]
